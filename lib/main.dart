@@ -3,7 +3,8 @@ import 'package:flutter/services.dart';
 
 import 'adminSignIn.dart';
 
-void main()  { {SystemChrome.setEnabledSystemUIOverlays([]); }
+void main()  {WidgetsFlutterBinding.ensureInitialized(); {
+  SystemChrome.setEnabledSystemUIOverlays([]); }
 runApp(adminSignIn());}
 
 

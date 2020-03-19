@@ -106,7 +106,7 @@ class _adminSignInFunctionState extends State<adminSignInFunction> {
                   child: FlatButton(
                     onPressed: () {Navigator.of(context).push(
                         MaterialPageRoute(
-                            builder: (BuildContext context) => Verify()
+                            builder: (BuildContext context) => OTP()
                         )
                     );},
                     child: Text(
